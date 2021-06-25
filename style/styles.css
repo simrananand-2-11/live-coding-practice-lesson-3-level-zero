@@ -1,5 +1,11 @@
 /*  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+:root
+{
+    --primary-color:orange;
+}
+
 body
 {
    /* font-family: 'Satisfy', cursive;*/
@@ -21,3 +27,26 @@ body
    margin: auto;
 }
 
+/* Links styling here*/
+
+
+.link-primary
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+}
+
+.link-secondary
+{
+    color:var(--primary-color);
+    text-decoration: none;
+    border-radius:0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+}
+
+
+/*Check out BEM convention of CSS*/
