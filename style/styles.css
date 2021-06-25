@@ -5,3 +5,19 @@ body
    /* font-family: 'Satisfy', cursive;*/
    font-family: 'Niconne', cursive;
 }
+
+/* container */
+
+/*styled center container here*/
+.container
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center
+{
+   max-width: 600px;
+   margin: auto;
+}
+
