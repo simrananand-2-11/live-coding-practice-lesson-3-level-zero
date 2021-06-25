@@ -70,3 +70,35 @@ hr
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/* Navigation */
+.navigation
+{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding:0.8rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;;
+}
+
+.navigation .link
+{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.navigation .nav-pills
+{
+    text-align:right;
+}
+
+.navigation .nav-brand
+{
+    font-weight: bold;
+    font-size:1.3rem;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+}
