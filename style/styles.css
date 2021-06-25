@@ -4,6 +4,7 @@
 :root
 {
     --primary-color:#D97706;
+    --true-gray: #262626;
 }
 
 body
@@ -101,4 +102,31 @@ hr
 .navigation .link-active
 {
     font-weight: bold;
+}
+
+/* Styling header of library */
+.headerOfLibrary
+{
+    padding: 2rem;
+    
+}
+
+.headerOfLibrary .header-image
+{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+
+.headerOfLibrary .header-text
+{
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.headerOfLibrary .header-text .highlighted-portion
+{
+    color:var(--primary-color);
 }
