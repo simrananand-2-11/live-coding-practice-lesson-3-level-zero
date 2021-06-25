@@ -3,7 +3,7 @@
 
 :root
 {
-    --primary-color:orange;
+    --primary-color:#D97706;
 }
 
 body
@@ -54,4 +54,19 @@ body
 hr
 {
     margin: 2.5rem 0rem;
+}
+
+/*Lists styling*/
+
+/*Non-bullet unordered list*/
+.list-non-bullet
+{
+    list-style:none;
+}
+
+/*inline list items*/
+.list-items-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
