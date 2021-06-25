@@ -50,3 +50,8 @@ body
 
 
 /*Check out BEM convention of CSS*/
+
+hr
+{
+    margin: 2.5rem 0rem;
+}
