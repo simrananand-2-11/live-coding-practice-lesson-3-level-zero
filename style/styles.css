@@ -5,12 +5,14 @@
 {
     --primary-color:#D97706;
     --true-gray: #262626;
+    --off-white: #E5E7EB;
 }
 
 body
 {
    /* font-family: 'Satisfy', cursive;*/
    font-family: 'Niconne', cursive;
+   margin:0px;
 }
 
 /* container */
@@ -79,7 +81,7 @@ hr
     color: whitesmoke;
     padding:0.8rem 1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;;
+    border-top-right-radius: 1rem;
 }
 
 .navigation .link
@@ -129,4 +131,45 @@ hr
 .headerOfLibrary .header-text .highlighted-portion
 {
     color:var(--primary-color);
+}
+
+/*styling various sections in library*/
+
+.section
+{
+    margin-top: 2rem;
+}
+
+.section h3
+{
+    text-align:center;
+    padding: 2rem;
+}
+
+.off-white
+{
+    background-color: var(--off-white);
+    padding: 1.5rem;
+}
+
+/*styling footer in library*/
+
+.library-footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align:center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.library-footer .list-item-footer
+{
+    color:white;
+}
+
+.library-footer ul
+{
+    padding-inline-start:0rem;
 }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Anand</title>
+    <link href="style/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Simran Anand's component library</h1>
+    
+    <p>I put demo version of items here the way I want to use it in some or the other project of mine. </p>
+    <hr>
+
+    <h2>@typography</h2>
+    
+    <h1>This is first bigger text in `h1` tag.</h1>
+    <h2>This is second bigger text in `h2` tag.</h2>
+    <p>This is normal text in `p` tag. It has a <strong>bold</strong> text in `strong` tag.</p>
+    <small>This is a random text in `small` tag.</small>
+
+    <hr>
+    <h2>@containers</h2>
+    
+    <h3 class="container-fluid">fluid container</h3>
+    <p>This is a fluid container. Text inside it will cover whole parent screen.</p>
+    <h3>center container</h3>
+    <p class="container container-center">This is a center container. Text inside it will lie in center of screen.</p>
+     <hr>
+
+    <h2>@links</h2>
+    
+         <a href="#" class="link link-primary">Primary-link</a>
+        <a href="#" class="link link-secondary">Secondary-link</a>
+    
+    <hr>
+
+    <h2>@lists</h2>
+    <hr>
+    <h3>Unordered lists (without bullets)</h3>
+    <p>The bullets are removed using CSS.</p>
+    <ul class="list-non-bullet">
+        <li>Item-1</li>
+        <li>Item-2</li>
+        <li>Item-3</li>
+    </ul>
+
+    <h3>Inline-list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-items-inline">Inline-item-1</li>
+        <li class="list-items-inline">Inline-Item-2</li>
+    </ul>
+
+    <h3>Reversed Ordered list</h3>
+    <ol reversed>
+        <li>Item-A</li>
+        <li>Item-B</li>
+        <li>Item-C</li>
+    </ol>
+    <hr>
+
+
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="nav-brand">IAmBrandName</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-items-inline link-active">
+                <a href="#" class="link">Home</a>
+            </li>
+            <li class="list-items-inline">
+                <a href="#" class="link">Projects</a>
+            </li>
+            <li class="list-items-inline">
+                <a href="#" class="link">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2 >@header</h2>
+    <header class="headerOfLibrary">
+        <img src="/image/undraw_Portfolio_re_qwm5.svg" class="header-image"/>
+        <h1 class="header-text">This is the <span class="highlighted-portion">name of image</span>. Looks like header inside header.</h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <div class="container container-center">
+        <section class="section">
+            <h3>White section</h3>
+            <p>Has a white background.</p>
+        </section>
+        <section class="section off-white">
+            <h3>Off- white section</h3>
+            <p>Has a different background than white.</p>
+        </section>
+    </div>
+    
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="library-footer">
+        <p class="footer-text">Some more description and some more handles to get in touch with us.</p>
+        <ul class="social-links list-non-bullet">
+            <li class="list-items-inline">
+                <a href="/" class="list-item-footer">Social-Media-1</a>
+            </li>
+            <li class="list-items-inline">
+                <a href="/" class="list-item-footer">Social-Media-2</a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
