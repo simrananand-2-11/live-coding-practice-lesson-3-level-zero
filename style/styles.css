@@ -1,5 +1,6 @@
 /*  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
 :root
 {
@@ -11,7 +12,8 @@
 body
 {
    /* font-family: 'Satisfy', cursive;*/
-   font-family: 'Niconne', cursive;
+   /*font-family: 'Niconne', cursive;*/
+   font-family: 'Noto Sans KR', sans-serif;
    margin:0px;
 }
 
@@ -103,13 +105,13 @@ hr
 
 .navigation .link-active
 {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* Styling header of library */
 .headerOfLibrary
 {
-    padding: 2rem;
+    padding: 1rem;
     
 }
 
@@ -122,8 +124,9 @@ hr
 
 .headerOfLibrary .header-text
 {
-    line-height: 200px;
-    height: 200px;
+    line-height: 3rem;
+    height: 1.5rem;
+    font-size:90%;
     text-align: center;
 
 }
@@ -172,4 +175,22 @@ hr
 .library-footer ul
 {
     padding-inline-start:0rem;
+}
+
+/* Bringing content from same row on same line*/
+.name-li-ul, .learning-li-ul, .projects-li-ul, .blogs-li-ul
+{
+    display: flex;
+  align-items: center;
+
+  /* Remove the next line if you want the span to appear next to the h1 */
+  justify-content:space-between;
+
+  
+  padding: 10px 30px;
+}
+
+.blogs-li-ul
+{
+    margin-bottom: 1rem;
 }
